@@ -1,0 +1,10 @@
+{
+  "name": "delimit_monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aloksGithub/delimit_monorepo.git",
+  "author": "alokgithub@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "workspaces": ["packages/*"]
+}

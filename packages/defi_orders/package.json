@@ -1,0 +1,53 @@
+{
+  "name": "stop_loss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node": "yarn run hardhat node",
+    "test": "yarn run hardhat test --deploy-fixture",
+    "compile": "yarn run hardhat compile",
+    "size": "yarn run hardhat size-contracts",
+    "pretty": "yarn prettier --write .",
+    "verify:bsc": "yarn run hardhat etherscan-verify --solc-input --api-key K34CKDK8FQJUC6S76TVX2JTZU6V73QGHRA --network bsc",
+    "verify:bscTestnet": "yarn run hardhat etherscan-verify --solc-input --api-key K34CKDK8FQJUC6S76TVX2JTZU6V73QGHRA --network bscTestnet",
+    "verify:mainnet": "yarn run hardhat etherscan-verify --solc-input --api-key YourApiKeyToken --network mainnet",
+    "deploy": "yarn run hardhat deploy"
+  },
+  "keywords": [],
+  "author": "Alok",
+  "license": "BUSL-1.1",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@openzeppelin/contracts": "^4.7.1",
+    "@openzeppelin/hardhat-upgrades": "^1.21.0",
+    "@typechain/ethers-v5": "^10.1.1",
+    "@typechain/hardhat": "^6.1.4",
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.0.6",
+    "chai": "^4.3.6",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.4",
+    "hardhat-contract-sizer": "^2.6.1",
+    "hardhat-deploy": "^0.11.22",
+    "prettier": "^2.8.1",
+    "prettier-plugin-solidity": "^1.1.1",
+    "solidity-coverage": "^0.8.2",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.4",
+    "@openzeppelin/contracts-upgradeable": "^4.8.1",
+    "@uniswap/v3-core": "^1.0.2-solc-0.8-simulate",
+    "@uniswap/v3-periphery": "^1.4.2",
+    "dotenv": "^16.0.1",
+    "hardhat-gas-reporter": "^1.0.9",
+    "node-fetch": "2"
+  }
+}

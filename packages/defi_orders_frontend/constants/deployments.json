@@ -1,0 +1,17 @@
+{
+  "1337": {
+    "positionsManager": "0x6d7F1Eb859F1a693c0Ec700220b55b4838C0269A",
+    "managerHelper": "0x9514381aE4F738568d8EB35622E383Ef32867682",
+    "universalSwap": "0x4759dF150377Ec4a4B6f3BD6a77Ec474931AF27b"
+  },
+  "97": {
+    "positionsManager": "0xB1AC040b0387Dd310fc853C2847a0d45650e83A5",
+    "managerHelper": "0xA770D92022Df556FAEAf47e258f4aF0Ef82eA1ad",
+    "universalSwap": "0x83D32C543A90e89c83a449C7F1486c101b9Dcda2"
+  },
+  "56": {
+    "positionsManager": "0xc2854C8c755afAeF74E8C979a4da5e522414Bb93",
+    "managerHelper": "0x4177f5A30590d832A4E964018Bd7711c89a5756d",
+    "universalSwap": "0xe955Ba147c797209407faE375c09FA20eBaa9648"
+  }
+}
